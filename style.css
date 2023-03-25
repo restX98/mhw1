@@ -5,6 +5,7 @@ html, body {
 }
 body {
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation */
@@ -15,6 +16,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  font-size: 1.25rem;
 }
 nav ul {
   display: flex;
@@ -70,9 +72,15 @@ header .user-info span {
   display: block;
   text-align: center;
 }
+header .user-info .name {
+  font-weight: bold;
+}
 header .user-info .last-update {
+  font-size: 1.125rem;
   padding-bottom: 5px;
   border-bottom: 1px solid grey;
+  font-style: italic;
+  line-height: 2rem
 }
 
 /* Main */

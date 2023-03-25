@@ -75,6 +75,45 @@ header .user-info .last-update {
   border-bottom: 1px solid grey;
 }
 
+/* Main */
+main {
+  width: 66.67%;
+  margin: auto;
+}
+main article {
+  position: relative;
+  margin-bottom: 120px;
+}
+main article::before {
+  content: attr(data-count);
+  color: grey;
+  font-size: 2rem;
+  position: absolute;
+  left: -40px;
+}
+main article span {
+  display: block;
+}
+main article .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+main article .rating {
+  font-size: 1rem;
+  font-weight: bold;
+  color: orange;
+  margin-bottom: 20px;
+}
+main article .description {
+  margin: 0 0 20px;
+}
+main article .review {
+  margin-bottom: 20px;
+}
+main article img {
+  width: 100%;
+}
+
 /* Footer */
 footer {
   position: relative;
@@ -96,7 +135,7 @@ footer span {
   cursor: pointer;
   margin-left: 10px;
   z-index: 2;
-  color: black;
+  color: white;
 }
 #toggle {
   display: none;

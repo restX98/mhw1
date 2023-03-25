@@ -75,6 +75,20 @@ header .user-info .last-update {
   border-bottom: 1px solid grey;
 }
 
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+footer span {
+  display: block;
+  padding-block: 35px;
+}
+
 /* Mobile menu */
 .mobile-menu-icon {
   display: none;

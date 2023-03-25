@@ -77,7 +77,7 @@ header .user-info .last-update {
 
 /* Footer */
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: black;
